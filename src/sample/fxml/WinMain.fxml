@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="303.0" prefWidth="272.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.ControllerWinMain">
+   <children>
+      <Button layoutX="18.0" layoutY="54.0" mnemonicParsing="false" onAction="#WinStorage" prefHeight="31.0" prefWidth="244.0" text="Склады" />
+      <Button layoutX="17.0" layoutY="85.0" mnemonicParsing="false" onAction="#WinInventory" prefHeight="31.0" prefWidth="244.0" text="Инвентарь" />
+      <Button layoutX="15.0" layoutY="148.0" mnemonicParsing="false" onAction="#WinCheckInventoryByStorage" prefHeight="31.0" prefWidth="244.0" text="Просмотр инвентаря" />
+      <Button layoutX="16.0" layoutY="116.0" mnemonicParsing="false" onAction="#WinBill" prefHeight="31.0" prefWidth="244.0" text="Накладные" />
+      <Button layoutX="16.0" layoutY="179.0" mnemonicParsing="false" onAction="#WinViewBillsByInventory" prefHeight="31.0" prefWidth="244.0" text="Просмотр накладных" />
+      <Button layoutX="18.0" layoutY="210.0" mnemonicParsing="false" onAction="#WinCheckStorages" prefHeight="31.0" prefWidth="244.0" text="Просмотр складов" />
+   </children>
+</AnchorPane>

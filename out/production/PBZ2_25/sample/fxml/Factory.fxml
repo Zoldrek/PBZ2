@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="433.0" prefWidth="713.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.ControllerFactory">
+   <children>
+      <TableView fx:id="table" layoutX="30.0" layoutY="26.0" prefHeight="299.0" prefWidth="556.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+        <columns>
+          <TableColumn fx:id="col1" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="col2" prefWidth="52.79998779296875" text="Код" />
+            <TableColumn fx:id="col3" prefWidth="84.0" text="Тип" />
+            <TableColumn fx:id="col4" prefWidth="126.0" text="Название" />
+            <TableColumn fx:id="col5" prefWidth="134.0" text="Адрес" />
+            <TableColumn fx:id="col6" prefWidth="130.0" text="Телефон" />
+            <TableColumn fx:id="col9" maxWidth="215.0" prefWidth="90.0" text="id нахождения" />
+        </columns>
+      </TableView>
+      <TextField fx:id="id" layoutX="10.0" layoutY="332.0" prefHeight="26.0" prefWidth="39.0" promptText="id" />
+      <TextField fx:id="code" layoutX="10.0" layoutY="372.0" prefHeight="26.0" prefWidth="52.0" promptText="Код" />
+      <TextField fx:id="name" layoutX="181.0" layoutY="372.0" promptText="Название" />
+      <TextField fx:id="address" layoutX="399.0" layoutY="332.0" prefHeight="31.0" prefWidth="175.0" promptText="Адрес" />
+      <TextField fx:id="telephone" layoutX="399.0" layoutY="372.0" prefHeight="31.0" prefWidth="175.0" promptText="Телефон" />
+      <ChoiceBox fx:id="type" layoutX="181.0" layoutY="332.0" prefHeight="31.0" prefWidth="187.0" />
+      <Button layoutX="73.0" layoutY="332.0" mnemonicParsing="false" onAction="#search" prefHeight="26.0" prefWidth="60.0" text="Найти" />
+      <Button layoutX="73.0" layoutY="372.0" mnemonicParsing="false" onAction="#delete" text="Удалить" />
+      <Button layoutX="590.0" layoutY="394.0" mnemonicParsing="false" onAction="#save" prefHeight="31.0" prefWidth="113.0" text="Сохранить" AnchorPane.rightAnchor="10.0" />
+      <ChoiceBox fx:id="id_region" layoutX="615.0" layoutY="332.0" prefHeight="31.0" prefWidth="96.0" AnchorPane.rightAnchor="10.0" />
+      <Text layoutX="607.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="id Региона" />
+   </children>
+</AnchorPane>

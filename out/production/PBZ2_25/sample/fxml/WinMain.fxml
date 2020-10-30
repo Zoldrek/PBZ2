@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="327.0" prefWidth="272.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.ControllerWinMain">
+   <children>
+      <Button layoutX="55.0" layoutY="39.0" mnemonicParsing="false" onAction="#WinProduct" prefHeight="26.0" prefWidth="154.0" text="Продукты" />
+      <Button layoutX="55.0" layoutY="77.0" mnemonicParsing="false" onAction="#WinFactory" prefHeight="26.0" prefWidth="154.0" text="Фабрики" />
+      <Button layoutX="55.0" layoutY="150.0" mnemonicParsing="false" onAction="#WinPrice" prefHeight="26.0" prefWidth="154.0" text="Измененить цены" />
+      <Button layoutX="55.0" layoutY="116.0" mnemonicParsing="false" onAction="#WinRegion" prefHeight="26.0" prefWidth="154.0" text="Регионы" />
+      <Button layoutX="55.0" layoutY="187.0" mnemonicParsing="false" onAction="#WinViewPriceDynamics" prefHeight="26.0" prefWidth="154.0" text="Просмотр динамики" />
+      <Button layoutX="55.0" layoutY="226.0" mnemonicParsing="false" onAction="#WinChekPriceByDate" prefHeight="26.0" prefWidth="154.0" text="Просмотр цен" />
+      <Button layoutX="55.0" layoutY="262.0" mnemonicParsing="false" onAction="#WinViewAveragePrice" prefHeight="26.0" prefWidth="154.0" text="Просмотр средней цены" />
+   </children>
+</AnchorPane>
